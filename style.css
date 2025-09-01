@@ -151,13 +151,19 @@ ul {
   position: absolute;
   bottom: 10%;
   /* background-color: blue; */
-  left: 45%;
+  left: 38%;
   display: flex;
   gap: 40px;
 }
 .btn-container > button {
-  padding: 6px 15px;
+  box-shadow: rgba(201, 201, 201, 0.35) 0px 5px 15px;
+  padding: 13px 25px;
   border-radius: 5px;
-  border: 1px solid goldenrod;
+  border: 3px solid white;
+  outline: none;
   background-color: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
 }
