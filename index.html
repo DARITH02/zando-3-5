@@ -155,7 +155,7 @@
       const progressCircle = document.querySelector(".autoplay-progress svg");
       const progressContent = document.querySelector(".autoplay-progress span");
 
-      const swiperEl = document.querySelector("swiper-container");
+      var swiperEl = document.querySelector("swiper-container");
       swiperEl.addEventListener("autoplaytimeleft", (e) => {
         const [swiper, time, progress] = e.detail;
         progressCircle.style.setProperty("--progress", 1 - progress);
@@ -236,28 +236,401 @@
         </a>
       </div>
       <div class="slid-items">
-        <div class="items">
-          <div class="img-item">
-            <img
-              src="https://zandokh.com/image/cache/catalog/products/2025-08/21225061329/ZANDO200820258711-cr-450x672.jpg"
-              alt=""
-            />
-          </div>
+        <swiper-container
+          class="mySwiper"
+          slides-per-view="4"
+          centered-slides="false"
+          space-between="10"
+          navigation="true"
+        >
+          <swiper-slide class="items">
+            <div>
+              <div class="img-item">
+                <img
+                  src="https://zandokh.com/image/cache/catalog/products/2025-08/21225061329/ZANDO200820258711-cr-450x672.jpg"
+                  alt=""
+                />
+              </div>
 
-          <div class="description">
-            <span class="txt">
-              <h3>$16.59</h3>
-              <p>Regular T-Shirt</p>
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-            </span>
-            <span class="icon"> <i class="fa-regular fa-heart"></i> </span>
-          </div>
-        </div>
+              <div class="description">
+                <span class="txt">
+                  <h3>$16.59</h3>
+                  <p>Regular T-Shirt</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </span>
+                <span class="icon"> <i class="fa-regular fa-heart"></i> </span>
+              </div>
+            </div>
+          </swiper-slide>
+
+          <swiper-slide class="items">
+            <div>
+              <div class="img-item">
+                <img
+                  src="https://zandokh.com/image/cache/catalog/products/2025-08/21225061329/ZANDO200820258711-cr-450x672.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span class="txt">
+                  <h3>$16.59</h3>
+                  <p>Regular T-Shirt</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </span>
+                <span class="icon"> <i class="fa-regular fa-heart"></i> </span>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide class="items">
+            <div>
+              <div class="img-item">
+                <img
+                  src="https://zandokh.com/image/cache/catalog/products/2025-08/21225061329/ZANDO200820258711-cr-450x672.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span class="txt">
+                  <h3>$16.59</h3>
+                  <p>Regular T-Shirt</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </span>
+                <span class="icon"> <i class="fa-regular fa-heart"></i> </span>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide class="items">
+            <div>
+              <div class="img-item">
+                <img
+                  src="https://zandokh.com/image/cache/catalog/products/2025-08/21225061329/ZANDO200820258711-cr-450x672.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span class="txt">
+                  <h3>$16.59</h3>
+                  <p>Regular T-Shirt</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </span>
+                <span class="icon"> <i class="fa-regular fa-heart"></i> </span>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide class="items">
+            <div>
+              <div class="img-item">
+                <img
+                  src="https://zandokh.com/image/cache/catalog/products/2025-08/21225061329/ZANDO200820258711-cr-450x672.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span class="txt">
+                  <h3>$16.59</h3>
+                  <p>Regular T-Shirt</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </span>
+                <span class="icon"> <i class="fa-regular fa-heart"></i> </span>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide class="items">
+            <div>
+              <div class="img-item">
+                <img
+                  src="https://zandokh.com/image/cache/catalog/products/2025-08/21225061329/ZANDO200820258711-cr-450x672.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span class="txt">
+                  <h3>$16.59</h3>
+                  <p>Regular T-Shirt</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </span>
+                <span class="icon"> <i class="fa-regular fa-heart"></i> </span>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide class="items">
+            <div>
+              <div class="img-item">
+                <img
+                  src="https://zandokh.com/image/cache/catalog/products/2025-08/21225061329/ZANDO200820258711-cr-450x672.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span class="txt">
+                  <h3>$16.59</h3>
+                  <p>Regular T-Shirt</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </span>
+                <span class="icon"> <i class="fa-regular fa-heart"></i> </span>
+              </div>
+            </div>
+          </swiper-slide>
+        </swiper-container>
+      </div>
+    </div>
+
+    <div class="container-width container-item">
+      <div class="container-txt-slid">
+        <h1>Tradition Meets Style – Pchum Ben🪔</h1>
+        <a href="">
+          <h2>Shop more</h2>
+        </a>
+      </div>
+      <div class="slid-items">
+        <swiper-container
+          class="mySwiper"
+          slides-per-view="4"
+          centered-slides="false"
+          space-between="10"
+          navigation="true"
+        >
+          <swiper-slide class="items">
+            <div>
+              <div class="img-item">
+                <img
+                  src="https://zandokh.com/image/cache/catalog/products/2025-06/1122503955/05.06.20252793-cr-450x672.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span class="txt">
+                  <h3>$16.59</h3>
+                  <p>Regular T-Shirt</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </span>
+                <span class="icon"> <i class="fa-regular fa-heart"></i> </span>
+              </div>
+            </div>
+          </swiper-slide>
+
+          <swiper-slide class="items">
+            <div>
+              <div class="img-item">
+                <img
+                  src="https://zandokh.com/image/cache/catalog/products/2025-08/21225061329/ZANDO200820258711-cr-450x672.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span class="txt">
+                  <h3>$16.59</h3>
+                  <p>Regular T-Shirt</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </span>
+                <span class="icon"> <i class="fa-regular fa-heart"></i> </span>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide class="items">
+            <div>
+              <div class="img-item">
+                <img
+                  src="https://zandokh.com/image/cache/catalog/products/2025-08/21225061329/ZANDO200820258711-cr-450x672.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span class="txt">
+                  <h3>$16.59</h3>
+                  <p>Regular T-Shirt</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </span>
+                <span class="icon"> <i class="fa-regular fa-heart"></i> </span>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide class="items">
+            <div>
+              <div class="img-item">
+                <img
+                  src="https://zandokh.com/image/cache/catalog/products/2025-08/21225061329/ZANDO200820258711-cr-450x672.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span class="txt">
+                  <h3>$16.59</h3>
+                  <p>Regular T-Shirt</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </span>
+                <span class="icon"> <i class="fa-regular fa-heart"></i> </span>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide class="items">
+            <div>
+              <div class="img-item">
+                <img
+                  src="https://zandokh.com/image/cache/catalog/products/2025-08/21225061329/ZANDO200820258711-cr-450x672.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span class="txt">
+                  <h3>$16.59</h3>
+                  <p>Regular T-Shirt</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </span>
+                <span class="icon"> <i class="fa-regular fa-heart"></i> </span>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide class="items">
+            <div>
+              <div class="img-item">
+                <img
+                  src="https://zandokh.com/image/cache/catalog/products/2025-08/21225061329/ZANDO200820258711-cr-450x672.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span class="txt">
+                  <h3>$16.59</h3>
+                  <p>Regular T-Shirt</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </span>
+                <span class="icon"> <i class="fa-regular fa-heart"></i> </span>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide class="items">
+            <div>
+              <div class="img-item">
+                <img
+                  src="https://zandokh.com/image/cache/catalog/products/2025-08/21225061329/ZANDO200820258711-cr-450x672.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="description">
+                <span class="txt">
+                  <h3>$16.59</h3>
+                  <p>Regular T-Shirt</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </span>
+                <span class="icon"> <i class="fa-regular fa-heart"></i> </span>
+              </div>
+            </div>
+          </swiper-slide>
+        </swiper-container>
       </div>
     </div>
   </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+<script>
+  const swiperEl = document.querySelector("swiper-container");
+  const swiper = swiperEl.swiper;
+
+  var appendNumber = 4;
+  var prependNumber = 1;
+  document
+    .querySelector(".prepend-2-slides")
+    .addEventListener("click", function (e) {
+      e.preventDefault();
+      swiper.prependSlide([
+        "<swiper-slide>Slide " + --prependNumber + "</swiper-slide>",
+        "<swiper-slide>Slide " + --prependNumber + "</swiper-slide>",
+      ]);
+    });
+  document
+    .querySelector(".prepend-slide")
+    .addEventListener("click", function (e) {
+      e.preventDefault();
+      swiper.prependSlide(
+        "<swiper-slide>Slide " + --prependNumber + "</swiper-slide>"
+      );
+    });
+  document
+    .querySelector(".append-slide")
+    .addEventListener("click", function (e) {
+      e.preventDefault();
+      swiper.appendSlide(
+        "<swiper-slide>Slide " + ++appendNumber + "</swiper-slide>"
+      );
+    });
+  document
+    .querySelector(".append-2-slides")
+    .addEventListener("click", function (e) {
+      e.preventDefault();
+      swiper.appendSlide([
+        "<swiper-slide>Slide " + ++appendNumber + "</swiper-slide>",
+        "<swiper-slide>Slide " + ++appendNumber + "</swiper-slide>",
+      ]);
+    });
+</script>

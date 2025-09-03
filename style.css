@@ -232,8 +232,6 @@ ul {
 /* slid items */
 .container-item {
   margin-top: 20px;
-
-  margin-bottom: 300px;
 }
 .container-txt-slid {
   padding: 20px 0;
@@ -252,6 +250,10 @@ ul {
   width: 24.25%;
   height: 480px;
   /* background-color: mediumslateblue; */
+}
+.items > div {
+  height: 100%;
+  width: 100%;
 }
 .img-item {
   height: 75%;
