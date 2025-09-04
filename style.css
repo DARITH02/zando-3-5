@@ -258,6 +258,7 @@ ul {
 .img-item {
   height: 75%;
   width: 100%;
+  position: relative;
 }
 .img-item > img {
   height: 100%;
@@ -294,4 +295,14 @@ ul {
 }
 .txt ul li:last-child {
   background-color: red;
+}
+
+.dis {
+  background-color: red;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 3px 8px;
+  color: whitesmoke;
+  border-radius: 5px;
 }
